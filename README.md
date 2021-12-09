@@ -2,6 +2,7 @@
 
 **Author**: Alex Payne
 **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+**PR**: https://github.com/DrPayne25/math-series/pull/1
 
 ## Overview
 This will be a way to create 3 functions 1 that based on your input will tell you which number in the fibonacci sequence that is. Another that will do the same but with the lucas series. And finally one that will allow you to pick which series to use based on two more parameters  
