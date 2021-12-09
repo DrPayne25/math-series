@@ -1,6 +1,6 @@
 import pytest
 
-from math_series.series import fibonacci, lucas
+from math_series.series import fibonacci, lucas, sum_series
 
 def test_fibonacci_zero():
   """
@@ -63,6 +63,38 @@ def test_lucas_eight():
   This will test what the two number of the fibonacci sequence is
   """
   actual = lucas(8)
+  expected = 47
+  assert actual == expected
+
+def test_sum_series_zero():
+  """
+  This will test what the two number of the fibonacci sequence is
+  """
+  actual = sum_series(0)
+  expected = 0
+  assert actual == expected
+
+def test_sum_series_five():
+  """
+  This will test what the two number of the fibonacci sequence is
+  """
+  actual = sum_series(5)
+  expected = 5
+  assert actual == expected
+
+def test_sum_series_two():
+  """
+  This will test what the two number of the fibonacci sequence is
+  """
+  actual = sum_series(2,2)
+  expected = 3
+  assert actual == expected
+
+def test_sum_series_eight():
+  """
+  This will test what the two number of the fibonacci sequence is
+  """
+  actual = sum_series(8,2)
   expected = 47
   assert actual == expected
 

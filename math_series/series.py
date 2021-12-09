@@ -35,3 +35,19 @@ def lucas(n):
     return 1
   else:
     return lucas(n-1) + lucas(n-2)
+
+def sum_series(n , param1=0, param2=1):
+  '''
+  This will be the sum_series function
+  it will take a 3 paramters with the last two being optional
+  the first parameter will determine which element in the series to print
+  the second two will default to 0 and 1 and determine the first two values for the series
+  data type should be a integer for all 3 
+  sum_series(0) = 1
+  sum_series(1, 2, 1) = 1
+
+  '''
+  if param1 == 0:
+    return fibonacci(n)
+  elif param1 == 2:
+    return lucas(n)
