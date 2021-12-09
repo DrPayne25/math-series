@@ -25,5 +25,5 @@ Actual time needed to complete: 41min
 
 
 ## Credit and Collaborations
-Codefellows supplied all starter code for this lab https://github.com/codefellows/can-of-books-frontend-template
-Worked with connor and brandon for testing 
+Worked with Connor and brandon for testing and discussion
+Help was acquired from these articles to get a better understanding https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/, 
