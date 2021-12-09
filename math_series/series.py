@@ -11,7 +11,9 @@ def fibonacci(n):
   
   '''
   """
-  line 14 is the base case for this function"""
+  line 17 is the base case for this function
+  this was greatly aided from this video https://www.youtube.com/watch?v=A3VQmxoWLHY
+  """
   if n == 0 or n == 1:
     return n
   else:
@@ -45,7 +47,6 @@ def sum_series(n , param1=0, param2=1):
   data type should be a integer for all 3 
   sum_series(0) = 1
   sum_series(1, 2, 1) = 1
-
   '''
   if param1 == 0:
     return fibonacci(n)
